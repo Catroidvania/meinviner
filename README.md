@@ -2,7 +2,9 @@
 
 veinminer knockoff for [FoxLoader](https://github.com/Fox2Code/FoxLoader)-alpha20
 
-hold shift to veinmine, only works in singleplayer
+hold shift to veinmine
+
+works singleplayer as a client mod or multiplayer when installed serverside (does not need to be on the client as well)
 
 ## Config
 
