@@ -2,7 +2,7 @@
 
 veinminer knockoff for [FoxLoader](https://github.com/Fox2Code/FoxLoader)-alpha20
 
-hold shift to veinmine
+hold shift to veinmine, only works in singleplayer
 
 ## Config
 
