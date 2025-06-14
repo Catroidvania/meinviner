@@ -1,0 +1,5 @@
+config.catroidvaniameinviner.enabled.name=Enabled
+config.catroidvaniameinviner.maxBlocks.name=Max Blocks Broken
+config.catroidvaniameinviner.diagonals.name=Mine Diagonals
+config.catroidvaniameinviner.oneAtATime.name=Slow Block Breaking
+config.catroidvaniameinviner.toolBreak.name=Allow Tool Break
