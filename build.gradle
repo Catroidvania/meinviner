@@ -4,14 +4,14 @@ buildscript {
         maven { url 'https://cdn.fox2code.com/maven' }
     }
     dependencies {
-        classpath('com.fox2code.FoxLoader:dev:2.0-alpha20')
+        classpath('com.fox2code.FoxLoader:dev:2.0-alpha21')
     }
 }
 
 apply plugin: 'foxloader.dev'
 
 group = 'com.catroidvania'
-version = '1.1.0'
+version = '1.2.0'
 
 dependencies {
     api 'org.semver4j:semver4j:5.3.0'
