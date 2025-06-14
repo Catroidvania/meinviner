@@ -16,7 +16,7 @@ public class Meinviner extends Mod {
 
     @Override
     public void onPostInit() {
-        FoxLoaderEvents.INSTANCE.registerEvents(MeinvinerClient.INSTANCE);
+        FoxLoaderEvents.INSTANCE.registerEvents(MeinvinerHandler.INSTANCE);
     }
 
     public static class MeinvinerConfig {
@@ -30,7 +30,10 @@ public class Meinviner extends Mod {
         public boolean diagonals = true;
 
         @ConfigEntry(configName = "Allow Tool Break", configComment = "Will leave tools at 0 durability when false")
-        public boolean toolBreak = false;
+        public boolean allowToolBreak = false;
+
+        @ConfigEntry(configName = "Proper Tools Only", configComment = "Only veinmine with the correct tools")
+        public boolean correctToolOnly = true;
 
         @ConfigEntry(configName = "Slow Break", configComment = "Breaks 1 block per tick, if false then breaks more")
         public boolean oneAtATime = false;

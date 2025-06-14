@@ -81,7 +81,7 @@ public class MeinvinerBlocklist {
             return true;
         }
 
-        if (!Meinviner.CONFIG.toolBreak && heldItem.getItemDamage() == heldItem.getMaxDamage()) {
+        if (!Meinviner.CONFIG.allowToolBreak && heldItem != null && heldItem.isItemStackDamageable() && heldItem.getItemDamage() == heldItem.getMaxDamage()) {
             return false;
         }
 
